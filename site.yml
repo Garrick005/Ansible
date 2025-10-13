@@ -1,0 +1,15 @@
+---
+- name: Установка ClickHouse
+  hosts: netology-clickhouse
+  roles:
+    - clickhouse 
+  
+- name: Установка Vector
+  hosts: netology-vector
+  roles:
+    - vector 
+
+- name: Установка и настройка LightHouse
+  hosts: netology-lighthouse
+  roles:
+    - lighthouse    

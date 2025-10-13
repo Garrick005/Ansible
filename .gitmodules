@@ -1,0 +1,6 @@
+[submodule "lighthouse"]
+	path = lighthouse
+	url = https://github.com/Garrick005/Lighthouse-role.git
+[submodule "vector"]
+	path = vector
+	url = https://github.com/Garrick005/Vector-role.git
